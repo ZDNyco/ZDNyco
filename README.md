@@ -44,7 +44,7 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://streak-stats.demolab.com?user=ZDNyco&locale=en&mode=daily&theme=nightowl&hide_border=false&border_radius=2&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ZDNyco&theme=nightowl&hide_border=false&border_radius=2" height="150" alt="streak graph" />
   <img src="https://raw.githubusercontent.com/ZDNyco/ZDNyco/trophy-output/trophy.svg?theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
 </div>
 
