@@ -44,8 +44,8 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ZDNyco&theme=nightowl&hide_border=false&border_radius=2" height="150" alt="streak graph" />
-  <img src="https://raw.githubusercontent.com/ZDNyco/ZDNyco/trophy-output/trophy.svg?theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZDNyco&theme=nightowl&show_icons=true&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ZDNyco&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true" height="150" alt="trophy graph" />
 </div>
 
 ###
