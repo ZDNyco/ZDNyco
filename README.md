@@ -47,7 +47,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ZDNyco&theme=dracula&hide_border=false">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ZDNyco&theme=default&hide_border=false">
-    <img alt="streak graph" src="https://streak-stats.demolab.com?user=MatheusJorgee&theme=default&hide_border=false" height="150" />
+    <img alt="streak graph" src="https://streak-stats.demolab.com?user=ZDNyco&theme=default&hide_border=false" height="150" />
   </picture>
 
 
