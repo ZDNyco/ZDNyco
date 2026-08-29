@@ -43,9 +43,18 @@
 
 ###
 
-<div data-importer="stats" align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZDNyco&theme=nightowl&show_icons=true&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-profile-trophy.vercel.app/?username=ZDNyco&theme=tokyonight&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true" height="150" alt="trophy graph" />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ZDNyco&theme=dracula&hide_border=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ZDNyco&theme=default&hide_border=false">
+    <img alt="streak graph" src="https://streak-stats.demolab.com?user=MatheusJorgee&theme=default&hide_border=false" height="150" />
+  </picture>
+
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ZDNyco&theme=dracula&area=true&hide_border=false">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ZDNyco&theme=github-light&area=true&hide_border=false">
+  </picture>
 </div>
 
 ###
