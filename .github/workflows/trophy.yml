@@ -15,20 +15,18 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Generate Trophies
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-          user_name: ${{ github.repository_owner }}
-          theme: tokyonight
-          no-frame: true
-          no-bg: false
+      - name: Download Trophy SVG
+        run: |
+          mkdir -p build
+          curl -s "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&no-bg=false" -o build/trophy.svg
 
       - name: Push to trophy-output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: trophy-output
-          build_dir: .
+          build_dir: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
